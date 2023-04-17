@@ -11504,12 +11504,12 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header2.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header2.jpg);
+  background-size: contain;
+  background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
@@ -11539,8 +11539,9 @@ pre .code {
 .header .header-content .header-title {
   font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
-  line-height: .7;
+  line-height: 1;
   margin-bottom: 25px;
+  margin-left: -900px;
   color: inherit;
 }
 
@@ -11549,6 +11550,7 @@ pre .code {
   font-weight: 500;
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
   margin-bottom: 40px;
+  margin-left: -100px;
 }
 
 @media (max-width: 767.98px) {
