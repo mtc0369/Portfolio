@@ -1,6 +1,11 @@
-Thanks for downloading this theme!
+Title: Online Map Portfolio / CV
+Author: Michael Connolly
 
-Theme Name: Eterna
-Theme URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Dependencies:
+
+
+Code Version:
+Last Updated: April 26, 2023
+
+Description:
+This portfolio page was built using bootstrap, css, and code fragments from various templates.
