@@ -81,7 +81,7 @@ h4.title {
   padding: 0 20px 0 20px;
   position: relative;
   display: center;
-  width: 72%;
+  width: 100%;
 }
 
 #wrapper {
@@ -114,7 +114,7 @@ h4.title {
 Section: works
 ===================================== */
 
-#works {
+#works {    
   background: #fcfcfc;
   padding: 50px 0px 30px;
 }
@@ -128,21 +128,22 @@ Section: works
   padding: 0;
 }
 /*for each map item*/
-.grid .item {
+.grid .item {   
   margin: 0;
+  margin-left: 100px;
   margin-bottom: 50px;
   text-align: center;
   position: relative;
   padding: 0;
 }
 
-.grid figure {
+.grid figure {  
   margin: 0;
   position: relative;
 }
 
-.grid figure img {
-  max-width: 100%;
+.grid figure img {    
+  max-width: 75%;
   display: block;
   position: relative;
 }
@@ -159,7 +160,7 @@ Section: works
   padding-top: 30%;
 }
 
-.grid figcaption span {
+.grid figcaption span {  
   display: block;
   text-align: center;
   margin-bottom: 20px;
@@ -978,12 +979,19 @@ a {
 
 .mb-5,
 .my-5 {
+  margin-left: 0px;
   margin-bottom: 3rem !important;
 }
 
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
+}
+
+.mb-6,
+.my-6 {
+  margin-left: 150px;
+  margin-bottom: 3rem !important;
 }
 
 .ml-auto,
@@ -1081,7 +1089,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: bold;
   line-height: 1;
   margin-bottom: 25px;
-  margin-left: -900px;
+  margin-left: 150px;
   color: inherit;
 }
 
@@ -1091,7 +1099,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 500;
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
   margin-bottom: 40px;
-  margin-left: 0px;
+  margin-left: 160px;
 }
 
 .section {
