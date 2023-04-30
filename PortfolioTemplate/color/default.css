@@ -114,10 +114,10 @@ div.tabbable.tabs-right  ul.nav-tabs li.active a {
 
 a i.icon-bglight:hover,
 a i.icon-bgdark:hover {
-  background: #e96b56;
+  background: #bcbddc;
 }
 i.icon-bglight.active {
-  background: #e96b56;
+  background: #756bb1;
 }
 
 i.icon-bgdark.active {
@@ -231,7 +231,7 @@ ul.team-categ.filter li.active a {
 }
 
 .grid figcaption {
-	background: #e96b56;
+	background: #756bb1;
 }
 
 /* footer */
