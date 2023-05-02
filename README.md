@@ -9,5 +9,5 @@
 Last Updated: May 4, 2023
 
 ### **Description:**
-This portfolio page was built using html, css, and code fragments from various templates.
+This portfolio page was built using HTML, JavaScript, CSS fragments from various templates.
  
