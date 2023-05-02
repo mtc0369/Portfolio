@@ -997,6 +997,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: bold;
 }
 
-.subtitle{
+.subtitle {
+  text-align: justify;
+}
+
+.mt-20 {
   text-align: justify;
 }
